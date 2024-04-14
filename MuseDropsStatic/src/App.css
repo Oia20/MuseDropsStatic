@@ -1,0 +1,12 @@
+body {
+  background: linear-gradient(180deg, #8cd5ff 0%, #0199f7 100%);
+}
+
+.pool-tile {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+  background-repeat: repeat;
+  overflow: hidden;
+}
