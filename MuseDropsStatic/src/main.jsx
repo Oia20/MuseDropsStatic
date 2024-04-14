@@ -8,6 +8,7 @@ import NewPost from "./newPost.jsx"
 import Login from "./loginform.jsx"
 import Register from "./register.jsx"
 import LogButton from "./login.jsx"
+import "./tailindex.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
