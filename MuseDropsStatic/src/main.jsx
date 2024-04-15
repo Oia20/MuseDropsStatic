@@ -14,10 +14,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
     <React.StrictMode>
       <Routes>
-        <Route path="/" element={[<Nav key={1}/>, <LogButton key={2}/>,<App key={3}/>]} />
-        <Route path="/post" element={<NewPost />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/Register" element={<Register />} />
+        <Route path="/MuseDropsStatic/" element={[<Nav key={1}/>, <LogButton key={2}/>,<App key={3}/>]} />
+        <Route path="/MuseDropsStatic/post" element={<NewPost />} />
+        <Route path="/MuseDropsStatic/login" element={<Login />} />
+        <Route path="/MuseDropsStatic/Register" element={<Register />} />
       </Routes>
     </React.StrictMode>
   </Router>

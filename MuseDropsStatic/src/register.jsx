@@ -21,11 +21,11 @@ function Register() {
             <button type="button" className='w-80 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-2 border-blue-900'>Create Account</button>
         </form>
         {error && <p className="text-red-500">{error}</p>}
-        <Link to="/login">
+        <Link to="/MuseDropsStatic/login">
         <p className=' mt-4 underline'>Login</p>
         </Link>
         <p>or</p>
-        <Link to="/">
+        <Link to="/MuseDropsStatic/">
         <p className='underline'>Return to drops</p>
         </Link>
     </div>

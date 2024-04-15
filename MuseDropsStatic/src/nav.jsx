@@ -14,7 +14,7 @@ export default function Nav() {
         <img src="Muse.png" alt="Musedrops Logo" className="h-8 mr-2" />
         <span className="text-white text-lg font-semibold">Musedrops</span>
       </div>
-      <Link to="/post">
+      <Link to="/MuseDropsStatic/post">
       <button
         id="postButton"
         className="bg-gradient-to-b from-blue-500 to-blue-700 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"

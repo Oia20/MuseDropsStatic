@@ -17,11 +17,11 @@ function Login() {
             <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} className=' border-2 border-blue-900 w-80 p-2 mb-4 border border-gray-300 rounded focus:outline-none focus:border-blue-500'/>
             <button type="button" className='w-80 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline border-2 border-blue-900'>Login</button>
         </form>
-        <Link to="/register">
+        <Link to="/MuseDropsStatic/Register">
         <p className=' mt-4 underline'>Create An Account</p>
         </Link>
         <p>or</p>
-        <Link to="/">
+        <Link to="/MuseDropsStatic/">
         <p className='underline'>Return to drops</p>
         </Link>
         

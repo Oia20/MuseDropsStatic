@@ -7,8 +7,11 @@ export default {
     "./src/login.jsx",
     "./src/loginform.jsx",
     "./src/tailindex.css",
-    "./src/newPost.jsx"
-
+    "./src/newPost.jsx",
+    "./src/main.jsx", 
+    "./index.css",
+    "./register.jsx",
+    "./app.css"
   ],
   theme: {
     extend: {},

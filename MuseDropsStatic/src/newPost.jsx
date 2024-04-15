@@ -37,7 +37,7 @@ function NewPost() {
           <img src="water-drop-svgrepo-com.svg" className=" h-5 w-5 absolute"/>
 
         </form>
-        <Link to="/">
+        <Link to="/MuseDropsStatic/">
         <p className='underline text-center'>Return to drops</p>
         </Link>
       </div>
