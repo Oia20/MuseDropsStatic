@@ -5,7 +5,10 @@ export default {
     "./src/nav.jsx",
     "./src/app.jsx",
     "./src/login.jsx",
-    "./src/tailindex.css"
+    "./src/loginform.jsx",
+    "./src/tailindex.css",
+    "./src/newPost.jsx"
+
   ],
   theme: {
     extend: {},

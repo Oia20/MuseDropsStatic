@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
 import Nav from "./nav.jsx";
@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
     <React.StrictMode>
       <Routes>
-        <Route path="/" element={[<Nav />, <LogButton />,<App />]} />
+        <Route path="/" element={[<Nav key={1}/>, <LogButton key={2}/>,<App key={3}/>]} />
         <Route path="/post" element={<NewPost />} />
         <Route path="/login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
